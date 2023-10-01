@@ -79,7 +79,6 @@ function Swap() {
                 key={i}
                 onClick={() => modifyToken(i)}
               >
-                
                 <div className="tokenChoiceNames">
                   <div className="tokenName">{e.currency}</div>
                   <div className="tokenTicker">≈  ${e.price} USD</div>
@@ -92,7 +91,7 @@ function Swap() {
       </Modal>
       <div className="overallBox">
         <div className="overallBoxHeader">
-          <h4>Fancy Swap</h4>
+          <h4>Swap</h4>
         </div>
         <div className="inputs">
           <Input
